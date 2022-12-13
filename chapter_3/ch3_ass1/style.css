@@ -1,0 +1,101 @@
+body{
+    background: #FCB5B5;
+}
+
+nav{
+    background-color: aqua;
+    text-decoration: none;
+}
+
+.image{
+    width: 100%;
+    height: 35rem;
+
+}
+
+.nav-brand{
+    font-size: xx-large;
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+
+}
+
+.home{
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+    padding-right: 1em;
+}
+
+.aboutUs{
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+    padding-right: 1em;
+}
+
+.contact{
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+    padding-right: 0.5em;
+   
+}
+
+.breakfast{
+    float: right;
+    padding: 1em;
+    margin-top: -16em;
+
+}
+
+#footer{
+    background: #20063B;
+    height: 15em;
+    color: white;
+    text-align: center;
+    padding-top: 3em;
+}
+
+#v{
+    color:rgb(146, 141, 141)
+}
+
+.form{
+    padding-left: 1em;
+}
+
+#button{
+    margin-left: 5em;
+}
+
+.table{
+    padding: 0.5em;
+    margin: auto;
+}
+
+.reference{
+    margin-top: 10em;
+}
+
+.info{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mary, .maria, .james, .tom{
+    background: #CBEEF3;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.map{
+    width: 22em;
+    margin-left: 22em;
+    right: 0;
+    margin-top: -70em;
+}
+
+table,td,th,tr {
+    border: 1px solid;
+  }

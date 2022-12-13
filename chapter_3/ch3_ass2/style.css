@@ -1,0 +1,81 @@
+/*.box1, .box2, .box3{
+    background: #afacac;
+    
+    padding: 2em;
+}*/
+
+.main{
+    padding: 10em;
+}
+
+.first{
+    padding: 1em;
+    background: rgb(47, 111, 47);
+    /*padding-bottom: -50em;*/
+    
+   /* text-align: ;*/
+    margin-top: -2em;
+    
+    
+}
+.b{
+    margin-top: 1em;
+}
+
+.a{
+    list-style: none;
+}
+
+.list1{
+    text-align: right;
+    margin-top: -2.5em;
+    
+
+}
+
+.list2{
+    text-align: right;
+    margin-right: 6em;
+    margin-top: -1.2em;
+}
+
+.list3{
+    text-align: right;
+    margin-right: 12em;
+    margin-top: -1.1em;
+}
+
+.box2{
+    text-align: center;
+    background: #f1eeee;
+    /*padding: 1em;*/
+    margin-left: 31em;
+    margin-right: 31em;
+    margin-top: -10.9em;
+    /*padding-bottom: 2em;*/
+}
+
+.box3{
+    text-align: right;
+    background: #f1eeee;
+    /*padding-right: 1em; */
+    margin-left: 45em;
+    margin-right: 15em;
+    text-align: center;
+    margin-top: -10.9em;
+   /* padding-bottom: 5em;*/
+    
+}
+.box1{
+    background: #f1eeee;
+   /* padding-left: 1em; */
+    margin-right: 45em;
+    margin-left: 15em;
+    margin-top: 2em;
+    /*padding-bottom: 5em;*/
+    text-align: center;
+}
+
+.middle{
+    margin-top: -10em;
+}
