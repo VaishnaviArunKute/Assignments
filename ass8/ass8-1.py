@@ -3,7 +3,7 @@
 import random
 li=[]
 def num_generator():            
-    a = random.randrange(1111, 9999)
+    a = random.randrange(1000, 9999)
     a = str(a)
     for i in a:
         li.append(i)
