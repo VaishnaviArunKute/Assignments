@@ -1,33 +1,28 @@
-#digit is repeting
+
 
 import random
-
+li=[]
 def num_generator():            
-    a = random.randrange(0, 10)
-    b = random.randrange(0, 10)
-    c = random.randrange(0, 10)
-    d = random.randrange(0, 10)
-    if a != b or b != c or c != d or d != a:
-        global e
-        e =str(a)+str(b)+str(c)+str(d)
-        e = '1234'
-        print(e)  
+    a = random.randrange(1111, 9999)
+    a = str(a)
+    for i in a:
+        li.append(i)
+    
+num_generator() 
+#print(li)
+
+li2=[]
+for i in li:
+    if i not in li2:
+        li2.append(i)
     else:
         num_generator() 
 
-num_generator() 
-
-'''
-if a == b or b == c or c == d or d == a:
-    b = random.randrange(0, 10)
-if a == b or b == c or c == d or d == a:
-    c = random.randrange(0, 10)
-if a == b or b == c or c == d or d == a:
-    d = random.randrange(0, 10)
-
-e =str(a)+str(b)+str(c)+str(d)
+#print(li2)
+e = ''.join(li2)
 print(e)
-'''
+
+
 
 count_bull = 0
 count_cow = 0
@@ -50,12 +45,14 @@ for j in range(1,1000):
                     count_cow += 1 
                     #print("cow: ",count_cow)
                     
-            else:
+            elif num[i] in li2:
                 x = "bull"
                 #print(x)
                 if x == "bull" :
                     count_bull += 1
                     #print("bull: ",count_bull)
+            else:
+                pass
         print(f"{count_cow} cows, {count_bull} bulls")
         count_bull = 0
         count_cow = 0
